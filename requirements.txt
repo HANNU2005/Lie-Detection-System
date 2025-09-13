@@ -1,0 +1,12 @@
+opencv-python==4.9.0.80
+numpy==1.26.3
+streamlit==1.31.0
+librosa==0.10.1
+PyAudio==0.2.14
+scipy==1.12.0
+protobuf>=3.20,<5
+sounddevice==0.4.6
+--only-binary :all:
+--prefer-binary
+--find-links https://github.com/jloh02/dlib/releases/download/v19.24/dlib-19.24.2-cp313-cp313-win_amd64.whl
+dlib==19.24.2 
